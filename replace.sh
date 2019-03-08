@@ -12,7 +12,8 @@ schemeurl=weixin
 
 echo $info_plist
 
+sed -i '' "s/$schemeIdentifier/${bundleId}/g" $info_plist
 sed  "s/\$scheme/$schemeurl/g" $info_plist
-# sed -i '' "s/$schemeIdentifier/${bundleId}/g" $info_plist
+
 
 # $plistBuddy -c "Set :CFBundleIdentifier $bundleId" $info_plist
