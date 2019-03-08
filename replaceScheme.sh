@@ -9,7 +9,7 @@
 plistBuddy=/usr/libexec/PlistBuddy
 projectName=SameSchemeTest
 info_plist="./${projectName}/Info.plist"
-schemeurl=yanxuan
+schemeurl=weixin
 dist_dir=`pwd`/build
 
 
